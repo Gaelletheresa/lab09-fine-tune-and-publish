@@ -1,0 +1,33 @@
+{
+  "final_method": "finetune_full",
+  "train_size": 400,
+  "seed": 0,
+  "test": {
+    "finetune_full": {
+      "accuracy": 0.8833333333333333,
+      "macro_f1": 0.8849385107217943
+    },
+    "tfidf": {
+      "accuracy": 0.8666666666666667,
+      "macro_f1": 0.8701787496731317
+    },
+    "most_common": {
+      "accuracy": 0.2875,
+      "macro_f1": 0.11165048543689321
+    }
+  },
+  "own_40": {
+    "finetune_full": {
+      "accuracy": 0.925,
+      "macro_f1": 0.924937343358396
+    },
+    "tfidf": {
+      "accuracy": 0.8,
+      "macro_f1": 0.7900717703349283
+    },
+    "most_common": {
+      "accuracy": 0.25,
+      "macro_f1": 0.1
+    }
+  }
+}
