@@ -12,6 +12,10 @@ from tickets_data import LABELS
 
 MODEL_NAME = "distilbert/distilbert-base-uncased"
 MAX_LENGTH = 64
+SETTINGS = {
+    "head": {"lr": 5e-3, "epochs": 5},
+    "full": {"lr": 5e-5, "epochs": 4},
+}
 LABEL2ID = {label: i for i, label in enumerate(LABELS)}
 ID2LABEL = {i: label for label, i in LABEL2ID.items()}
 
