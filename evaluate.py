@@ -30,3 +30,10 @@ def plot_learning_curve(results, path):
     fig.tight_layout()
     Path(path).parent.mkdir(parents=True, exist_ok=True)
     fig.savefig(path, dpi=150)
+
+
+def choose_final_method(results):
+    """Pick the method with the best mean validation accuracy at the largest size."""
+    largest = results["size"].max()
+    means = results[results["size"] == largest].groupby("method")["val_accuracy"].mean()
+    return means.idxmax(), int(largest)
