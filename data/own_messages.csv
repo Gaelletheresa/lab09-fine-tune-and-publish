@@ -1,0 +1,47 @@
+text,label
+"I got charged double the amount",billing
+"I asked them to gave me a refund",billing
+"The recipt shows an additional fees that I was not suppose to receive. I never agreed to this charge and nobody explained it to me. Please remove it from my account.",billing
+"The total bill was miscalculated",billing
+"I want to cancel this bill and get my money back",billing
+"I wasn't aware that the price will increase next month",billing
+"My paymnet did not go through as I did not have enough money",billing
+"Yesterday,I got my invoice for the rides and I got another person's bill. My name is on it but the rides are not mine. I need the correct invoice sent to me.",billing
+"I called them yesterday to know where they did send the bill",billing
+"I got the payment back after I cancelled",billing
+
+
+"The brakes on my bike are not good",bike_fault
+"The tire is too flat",bike_fault
+"The pedals are loose so they broke after I used it",bike_fault
+"The seat keeps sliding down every time I sit. It is very annoying when I am riding.",bike_fault
+"The light does not work",bike_fault
+"The bike make weird noise after an hor of riding",bike_fault
+"I feel unsafe due to the wheel's issues",bike_fault
+"The gears are stuck so I can't ride further",bike_fault
+"Every time I ride, the chain keeps falling off. I have to stop and put it back. It happened three times today.",bike_fault
+"The handlebar got loose last nght",bike_fault
+
+
+"I tried to take the bike out of the dock but it would not come out",station
+"I return the bike into the station but there was no space anymore",station
+"When I looked in the morning, I did not find any bike. I waited twenty minutes and nobody came to refill the station. I was late for work.",station
+"There was some technical errors on the screen kiosk",station
+"Station near my place always empty",station
+"The dock light stays red all the time",station
+"The kiosk does not acept my code",station
+"I wanted to check with the manager if it is possible to get more docks at a busy station. Every evening it is full and people wait a long time to return their bikes.",station
+"The bike did not lock properly when I returned it",station
+"All the slotts were taken",station
+
+
+"My new password information went to my other email",account
+"I tried to login but it did not go through",account
+"I log in the app to change my email information and update all my information. The page kept loading and nothing was saved. I still have the old email on my account.",account
+"I want to delete my account",account
+"My past account does not work anymore so i have to create a new one",account
+"The app says my phone number is already used",account
+"I want to switch my monthly subscripton pass to an annual one",account
+"I want to use a new nickname for my profile. My name is also spelled wrong and I tried to fix it in the settings, but I could not find where to change it.",account
+"I never got the verification email code for the new password",account
+"Pause my plan until sumer",account
