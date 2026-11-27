@@ -101,7 +101,7 @@ The fine-tuned model got 37 of 40 right and TF-IDF got 32. My messages contain n
 
 ## Publishing
 
-The fine-tuned model and its model card are on the Hugging Face Hub: https://huggingface.co/Gaelletheresa/lakeshore-ticket-sorter (`python publish.py`). The model weights are not in GitHub. The Space files are in `space/`. When I ran `python publish.py --space`, Hugging Face refused to create the Gradio Space with the error 402 Payment Required, because hosting a Gradio Space on free hardware needs a PRO subscription. I am showing the app running locally instead, as agreed with the instructor.
+The fine-tuned model and its model card are on the Hugging Face Hub: https://huggingface.co/Gaelletheresa/lakeshore-ticket-sorter (`python publish.py`). The model weights are not in GitHub. The Space files are in `space/`. When I ran `python publish.py --space`, Hugging Face refused to create the Gradio Space with the error 402 Payment Required, because hosting a Gradio Space on free hardware needs a PRO subscription. The instructor agreed that I should not pay for PRO, so there is no Space link. The app runs locally with `python app.py` (see "How to run it").
 
 ## Tests
 
