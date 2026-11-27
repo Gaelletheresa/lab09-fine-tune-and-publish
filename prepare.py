@@ -7,6 +7,7 @@ from tickets_data import make_tickets
 SPLIT_SEED = 2026
 SAMPLE_SIZES = (50, 150, 400)
 
+
 def split_tickets(frame, seed=SPLIT_SEED):
     """Return train, validation and test rows (60/20/20), stratified by label."""
     train, rest = train_test_split(

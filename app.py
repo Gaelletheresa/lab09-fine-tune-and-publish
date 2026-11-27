@@ -4,7 +4,6 @@ import gradio as gr
 import torch
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
-
 MODEL_ID = "model"
 MAX_LENGTH = 64
 EMPTY_MESSAGE = "Please type a message first."
@@ -32,9 +31,7 @@ def score_text(text, model_id=MODEL_ID):
     )
     with torch.no_grad():
         probabilities = torch.softmax(model(**inputs).logits, dim=-1)[0]
-    scores = {
-        model.config.id2label[i]: float(p) for i, p in enumerate(probabilities)
-    }
+    scores = {model.config.id2label[i]: float(p) for i, p in enumerate(probabilities)}
     return scores, ""
 
 

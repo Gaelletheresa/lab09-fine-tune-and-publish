@@ -137,6 +137,7 @@ def run_final():
     tokenizer.save_pretrained("model")
     print(json.dumps(scores, indent=2))
 
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--quick", action="store_true", help="tiny test run")
